@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# Methods paper — benchmark results (regenerable)
+methods_paper/data/*.csv
+
+# Methods paper — raster figures (PDF vectors kept)
+methods_paper/figures/*.png
+
+# Patents — confidential
+patents/
+
+# Large data (if any added later)
+*.h5ad
+
+# IDE
+.vscode/
+.idea/
