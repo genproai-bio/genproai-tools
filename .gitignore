@@ -9,17 +9,14 @@ build/
 # macOS
 .DS_Store
 
-# Methods paper — benchmark results (regenerable)
-methods_paper/data/*.csv
-
-# Methods paper — raster figures (PDF vectors kept)
-methods_paper/figures/*.png
-
-# Patents — confidential
+# Internal documents — NOT for public repo
+STRATEGY.md
+methods_paper/
 patents/
-
-# Large data (if any added later)
 *.h5ad
+
+# Large derived data
+genproai_tools/data/gpds_gdsc2.parquet
 
 # IDE
 .vscode/
